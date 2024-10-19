@@ -1,0 +1,17 @@
+curl --location 'localhost:8080/getProducts'
+
+
+curl --location 'localhost:8080/addCash' \
+--header 'Content-Type: application/json' \
+--data '{
+    "cashAmount": 1000
+}'
+
+
+curl --location 'localhost:8080/buyProduct' \
+--header 'Content-Type: application/json' \
+--data '{
+    "amount": 100,
+    "productid" : 1, 
+    "productQuantity":1
+}'
