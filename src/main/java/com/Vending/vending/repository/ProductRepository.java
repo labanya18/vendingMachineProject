@@ -1,9 +1,9 @@
-package com.Vending.repository;
+package com.Vending.vending.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.Vending.entity.Product;
+import com.Vending.vending.entity.Product;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {

@@ -1,4 +1,4 @@
-package com.Vending.entity;
+package com.Vending.vending.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
